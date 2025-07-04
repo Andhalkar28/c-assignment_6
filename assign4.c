@@ -12,4 +12,16 @@ int main()
 
     printf("\n Enter KEY to Search :");
     scanf("%d", &key);
+
+    for (i = 0; i < n; i++)
+    {
+        if (a[i] == key)
+            cnt++;
+    }
+    if (cnt == 0)
+        printf("Not Found ");
+    else
+        printf("\n Count Of Occurance Of Key %d In Array Is :%d", key, cnt);
+
+    return 0;
 }
