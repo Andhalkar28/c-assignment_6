@@ -13,6 +13,7 @@ int main()
     printf("\n Enter KEY to Search :");
     scanf("%d", &key);
 
+    flag = 0;
     for (i = 0; i < n; i++)
     {
         if (a[i] == key)
